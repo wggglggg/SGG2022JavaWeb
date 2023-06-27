@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>demo02表格标签的学习</title>
+	</head>
+	
+	<body>
+		<table border="1" cellspacing="0" cellpadding="4" width="600">
+			<tr align="center">
+				<th>设备编号</th>
+				<th>设备名称</th>
+				<th>工作地点</th>
+				<th>归属形势</th>
+			</tr>
+			<tr align="center">
+				<td>1号机</td>
+				<td>小松PC200-8</td>
+				<td>河道</td>
+				<td>租赁</td>								
+			</tr>
+			<tr align="center">
+				<td>2号机</td>
+				<td>晋工757</td>
+				<td>河道</td>
+				<td>自用</td>								
+			</tr>
+			<tr align="center">
+				<td>3号机</td>
+				<td>晋工755</td>
+				<td>产线</td>
+				<td>自用</td>								
+			</tr>
+			<tr align="center">
+				<td>4号机</td>
+				<td>晋工755</td>
+				<td>产线</td>
+				<td>自用</td>								
+			</tr>
+			
+		</table>
+		<hr/>
+		合并单元格<br/>
+		<table border="1" cellspacing="0" cellpadding="4" width="600">
+			<tr>
+				<th>设备编号</th>
+				<th>设备名称</th>
+				<th>工作地点</th>
+				<th>归属形势</th>
+				<th>操作</th>
+			</tr>
+			<tr align="center">
+				<td>1号机</td>
+				<td>小松PC200-8</td>
+				<td rowspan="2">河道</td>
+				<td>租赁</td>
+				<td><img src="imgs/delete.jpeg" width="20" height="20"></td>				
+			</tr>
+			<tr align="center">
+				<td>2号机</td>
+				<td>晋工757</td>
+				
+				<td rowspan="3">自用</td>
+				<td><img src="imgs/delete.jpeg" width="20" height="20"></td>				
+			</tr>
+			<tr align="center">
+				<td>3号机</td>
+				<td rowspan="2">晋工755</td>
+				<td rowspan="2">产线</td>
+				<td><img src="imgs/delete.jpeg" width="20" height="20"></td>								
+			</tr>
+			<tr align="center">
+				<td>4号机</td>
+				<td><img src="imgs/delete.jpeg" width="20" height="20"></td>
+				
+												
+			</tr>
+			<tr align="center">
+				<td>合计</td>
+				<td colspan="3">横向合并单元格</td>
+				
+				<td><img src="imgs/delete.jpeg" width="20" height="20"></td>
+			</tr>
+		</table>
+	</body>
+</html>
