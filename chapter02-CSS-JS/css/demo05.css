@@ -1,0 +1,52 @@
+*{
+    color: threeddarkshadow;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #808080;
+}
+
+div{
+    position: relative;
+    float: left;
+}
+
+#div_container{
+    width: 80%;
+    height: 100%;
+    border: 0px solid blue;
+    float:left;
+    margin-left: 10%;
+    background-color: honeydew;
+
+}
+
+#div_fruit{
+    width: 80%;
+    border: 0px solid red;
+    margin-left: 10%;
+
+}
+
+#tb_fruit{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 120px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+#tb_fruit, tr, th, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+
+}
+
+.delImg{
+    width: 24px;
+    height: 24px;
+}

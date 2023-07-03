@@ -1,0 +1,19 @@
+
+/* ID样式 */
+#p4{
+	font-size:24px;
+	font-weight:bolder;
+	font-style:italic;
+	font-color:pink;
+	font-family:"黑体";
+	
+}
+
+div p{
+	color:blue;
+}
+
+div  .f32{
+	font-size:40px;
+	font-family:"黑体";
+}
