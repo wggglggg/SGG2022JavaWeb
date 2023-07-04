@@ -1,0 +1,46 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#808080;
+}
+
+
+#div_container{
+    width: 80%;
+    height: 100%;
+    border: 0px solid red;
+    margin-left: 10%;
+    background-color: honeydew;
+}
+
+#div_fruit{
+    height: 100%;
+    border: 1px solid blue;
+
+
+}
+
+#tb_fruit{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 120px;
+}
+
+#tb_fruit th{
+    font-weight: bold;
+}
+
+#tb_fruit, #tb_fruit tr, #tb_fruit th, #tb_fruit td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    line-height: 40px;
+    text-align: center;
+
+
+}
+
+.delImg{
+    width: 25px;
+    height: 25px;
+}

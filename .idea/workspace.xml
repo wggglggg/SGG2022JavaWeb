@@ -13,8 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -54,6 +55,9 @@
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter02-CSS-JS\imgs" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter02-CSS-JS" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter02-CSS-JS" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.demo03.html">
     <configuration name="demo02.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SGG2022JavaWeb/chapter02-CSS-JS/demo02.html" useBuiltInWebServerPort="true">
@@ -79,7 +83,7 @@
       <updated>1688375322239</updated>
       <workItem from="1688375323715" duration="729000" />
       <workItem from="1688380183359" duration="3917000" />
-      <workItem from="1688431293651" duration="691000" />
+      <workItem from="1688431293651" duration="4201000" />
     </task>
     <servers />
   </component>
