@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SGG2022JavaWeb.iml" filepath="$PROJECT_DIR$/.idea/SGG2022JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter3-tomcat-servlet/chapter3-tomcat-servlet.iml" filepath="$PROJECT_DIR$/chapter3-tomcat-servlet/chapter3-tomcat-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4-tomcat-servlet/chapter4-tomcat-servlet.iml" filepath="$PROJECT_DIR$/chapter4-tomcat-servlet/chapter4-tomcat-servlet.iml" />
+    </modules>
+  </component>
+</project>
