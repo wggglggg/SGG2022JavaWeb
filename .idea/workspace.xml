@@ -48,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chapter4-tomcat-servlet/web/WEB-INF/lib",
+    "last_opened_file_path": "C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chapter4-tomcat-servlet",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,11 +62,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter4-tomcat-servlet" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter4-tomcat-servlet\lib" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter4-tomcat-servlet\src\com\servlets01\dao" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter4-tomcat-servlet\src\utils" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter3-tomcat-servlet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter4-tomcat-servlet\web\WEB-INF" />
@@ -87,6 +87,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.servlets01" />
       <option name="MAIN_CLASS_NAME" value="com.servlets01.AddServlet" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,22 +104,6 @@
       <option name="PACKAGE_NAME" value="com.servlets01" />
       <option name="MAIN_CLASS_NAME" value="com.servlets01.AddServlet" />
       <option name="METHOD_NAME" value="testDo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaseDAO.testDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter4-tomcat-servlet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.BaseDAO" />
-      <option name="METHOD_NAME" value="testDB" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,14 +200,12 @@
     <list>
       <item itemvalue="JUnit.AddServlet" />
       <item itemvalue="JUnit.AddServlet.testDo" />
-      <item itemvalue="JUnit.BaseDAO.testDB" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.10" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AddServlet" />
         <item itemvalue="JUnit.AddServlet.testDo" />
-        <item itemvalue="JUnit.BaseDAO.testDB" />
       </list>
     </recent_temporary>
   </component>
@@ -238,10 +221,21 @@
       <workItem from="1688546687328" duration="3052000" />
       <workItem from="1688557317256" duration="6057000" />
       <workItem from="1688565140745" duration="514000" />
+      <workItem from="1688601364724" duration="4594000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,14 +1,13 @@
 package utils;
 
 
-import com.alibaba.druid.pool.DruidDataSourceFactory;
 
-import javax.sql.DataSource;
-import java.io.IOException;
+
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
+
 import java.util.Properties;
 
 
@@ -43,60 +42,79 @@ import java.util.Properties;
  */
 public class JdbcUtilsV2 {
 
-    private static DataSource dataSource = null;
-//    private static ThreadLocal<Connection> tl = new ThreadLocal<>();
-
-
-    static{
-
-        //初始化连接池对象
-        Properties properties = new Properties();
-        InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream("druid.properties");
-
-        try {
-            properties.load(is);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        try {
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-
     /**
-     * 对外提供连接的方法
-     * @return
+     * ClassName: JDBCUtils
+     * Description: 操作数据库的工具类
+     *
+     * @Author wggglggg
+     * @Create 2023/6/29 9:05
+     * @Version 1.0
      */
-    public static Connection getConnection() throws SQLException {
-        //线程本地变量中是否存在
-        Connection connection = tl.get();
 
-        //第一次没有
-        if (connection == null){
-            //线程本地变量没有,连接池获取
-            connection = dataSource.getConnection();
-            tl.set(connection);
-        }
+    public static Connection getConnection() throws Exception {
+
+
+        // 1.读取配置文件中的4个基本信息
+//        InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream("servlet.properties");
+//
+//        Properties properties = new Properties();
+//        properties.load(is);
+//
+//        String user = properties.getProperty("username");
+//        String password = properties.getProperty("password");
+//        String url = properties.getProperty("url");
+//        String driverClass = properties.getProperty("driverClassName");
+
+
+        // 2.加载驱动
+        Class.forName("com.mysql.cj.jdbc.Driver");
+//        Class.forName(driverClass);
+
+        // 3.获取连接
+        Connection connection = DriverManager.getConnection("jdbc:mysql:///fruitdb", "root", "abc123");
+//        Connection connection = DriverManager.getConnection(url, user, password);
+
 
         return connection;
     }
 
-    /**
-     * 接收连接，并将连接返回给连接池
-     */
-    public static void releaseConnection(Connection connection) throws SQLException {
-        Connection connection1 = tl.get();
+    public static void releaseConnection(Connection conn, Statement ps) {
 
-        if (connection != null){
-            tl.remove();                    //清空线程本地变量数据
-            connection.setAutoCommit(true); //事务状态回顾 false
-
-            connection.close();             //回收到连接池即可
+        try {
+            if (ps != null)
+                ps.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
+        try {
+            if (conn != null)
+                conn.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
+    public static void releaseConnection(Connection conn, Statement ps, ResultSet rs) {
+        try {
+            if (rs != null)
+                rs.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        try {
+            if (ps != null)
+                ps.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        try {
+            if (conn != null)
+                conn.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
 }
+
+

@@ -39,8 +39,8 @@ public class AddServlet extends HttpServlet {
         try {
             String sql = "insert into t_fruit(fname, price, fcount, remark) values(?,?,?,?)";
             insertCount =baseDAO.executeUpdate(sql, fname, price, fcount, remark);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
 
@@ -49,7 +49,7 @@ public class AddServlet extends HttpServlet {
     }
 
     @Test
-    public void testDo() throws SQLException {
+    public void testDo() throws SQLException{
         BaseDAO baseDAO = new BaseDAO();
         String sql = "insert into t_fruit(fname, price, fcount, remark) values(?,?,?,?)";
         int  insertCount =baseDAO.executeUpdate(sql, "葡萄", 3, 12, "黑葡萄");

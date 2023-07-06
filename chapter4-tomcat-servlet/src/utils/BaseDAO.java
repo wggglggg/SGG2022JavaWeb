@@ -20,30 +20,32 @@ import java.util.List;
 public class BaseDAO {
 
 
-    public int  executeUpdate(String sql, Object...args) throws SQLException {
-        Connection connection = JdbcUtilsV2.getConnection();
+    public int  executeUpdate(String sql, Object...args){
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        int rows = 0;
+        try {
+            connection = JdbcUtilsV2.getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement = connection.prepareStatement(sql);
 
-        for (int i = 0; i < args.length; i++) {
+            for (int i = 0; i < args.length; i++) {
 
-            preparedStatement.setObject(i+1, args[i]);
-        }
+                preparedStatement.setObject(i+1, args[i]);
+            }
 
-        int rows = preparedStatement.executeUpdate();
+            rows = preparedStatement.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally {
 
-        preparedStatement.close();
-
-        if (connection.getAutoCommit()){
-
-            JdbcUtilsV2.releaseConnection(connection);
+            JdbcUtilsV2.releaseConnection(connection, preparedStatement);
         }
 
         return rows;
     }
 
-    public <T> List<T> executeQuery(Class<T> clazz, String sql, Object...args) throws SQLException, NoSuchFieldException,
-            IllegalAccessException, NoSuchMethodException, InvocationTargetException, InstantiationException {
+    public <T> List<T> executeQuery(Class<T> clazz, String sql, Object...args) throws Exception {
 
         Connection connection = JdbcUtilsV2.getConnection();
 
@@ -77,12 +79,11 @@ public class BaseDAO {
 
         }
 
-        rs.close();
-        preparedStatement.close();
+
 
         if (connection.getAutoCommit()){
 
-            JdbcUtilsV2.releaseConnection(connection);
+            JdbcUtilsV2.releaseConnection(connection, preparedStatement, rs);
         }
 
         return list;
