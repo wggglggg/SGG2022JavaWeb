@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <!--
+    1. 用户发请求，action=add
+    2. 项目中，web.xml中找到url-pattern = /add   -> 第12行
+    3. 找第11行的servlet-name = AddServlet
+    4. 找和servlet-mapping中servlet-name一致的servlet ， 找到第7行
+    5. 找第8行的servlet-class -> com.atguigu.servlets.AddServlet
+    6. 用户发送的是post请求（method=post） ， 因此 tomcat会执行AddServlet中的doPost方法
+    -->
+    <servlet>
+        <servlet-name>AddServlet</servlet-name>
+        <servlet-class>com.begin01.servlets.AddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddServlet</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+</web-app>
