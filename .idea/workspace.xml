@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="pro10-fruit1.5-thymeleaf:war exploded" />
+      <artifact name="pro11-fruit1.6-pagination:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -18,9 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chapter04-servlet-http-session/pro09-javaweb-thymeleaf/web/css",
+    "last_opened_file_path": "C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/lib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,24 +65,24 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.22569445",
-    "settings.editor.selected.configurable": "project.propDebugger",
+    "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter04-servlet-http-session\pro09-javaweb-thymeleaf\web\css" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\lib" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter04-servlet-http-session\pro09-javaweb-thymeleaf\web" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter04-servlet-http-session\pro09-javaweb-thymeleaf\src\com\thymeleaf\fruit" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit\pro10-fruit1.5-thymeleaf\web" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit\pro10-fruit1.5-thymeleaf\web\css" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit\pro10-fruit1.5-thymeleaf\web\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit\pro10-fruit1.5-thymeleaf\web" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\lib" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\test\pro09-fruit1.4-thymeleaf" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter04-servlet-http-session\pro07-javaweb-begin\src\com\begin01" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter04-servlet-http-session\pro07-javaweb-begin" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter4-tomcat-servlet\web\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.thymeleaf.fruit.dao" />
@@ -89,6 +90,22 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.90">
+    <configuration name="FruitDAOImpl.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro10-fruit1.5-thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.fruit.dao.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.fruit.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.fruit.dao.impl.FruitDAOImpl" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IndexServlet.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro09-javaweb-thymeleaf" />
       <extension name="coverage">
@@ -183,15 +200,16 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro10" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro11/index" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="pro10-fruit1.5-thymeleaf:war exploded">
+        <artifact name="pro11-fruit1.6-pagination:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/pro10" />
+            <option name="CONTEXT_PATH" value="/pro11" />
           </settings>
         </artifact>
       </deployment>
@@ -269,7 +287,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="pro10-fruit1.5-thymeleaf:war exploded" />
+          <artifact name="pro11-fruit1.6-pagination:war exploded" />
         </option>
       </method>
     </configuration>
@@ -352,12 +370,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.FruitDAOImpl.testUpdate" />
       <item itemvalue="JUnit.IndexServlet.testQuery" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.90" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IndexServlet.testQuery" />
+        <item itemvalue="JUnit.FruitDAOImpl.testUpdate" />
+        <item itemvalue="JUnit.FruitDAOImpl.testUpdate" />
+        <item itemvalue="JUnit.FruitDAOImpl.testUpdate" />
+        <item itemvalue="JUnit.FruitDAOImpl.testUpdate" />
+        <item itemvalue="JUnit.FruitDAOImpl.testUpdate" />
       </list>
     </recent_temporary>
   </component>
@@ -392,6 +415,17 @@
       <workItem from="1688896183140" duration="1914000" />
       <workItem from="1688903532153" duration="769000" />
       <workItem from="1688908042864" duration="2684000" />
+      <workItem from="1688950754824" duration="4573000" />
+      <workItem from="1688955362605" duration="1124000" />
+      <workItem from="1688956504227" duration="565000" />
+      <workItem from="1688957095477" duration="1927000" />
+      <workItem from="1688959051145" duration="2054000" />
+      <workItem from="1688974478757" duration="1388000" />
+      <workItem from="1688975888678" duration="615000" />
+      <workItem from="1688976524904" duration="303000" />
+      <workItem from="1688976857787" duration="920000" />
+      <workItem from="1688977812329" duration="2708000" />
+      <workItem from="1688990578877" duration="5870000" />
     </task>
     <servers />
   </component>
@@ -405,11 +439,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chapter05-thymeleaf-fruit/pro10-fruit1.5-thymeleaf/src/com/demo/Demo04Servlet.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
