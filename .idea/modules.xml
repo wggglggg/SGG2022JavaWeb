@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter04-servlet-http-session/pro09-javaweb-thymeleaf/pro09-javaweb-thymeleaf.iml" filepath="$PROJECT_DIR$/chapter04-servlet-http-session/pro09-javaweb-thymeleaf/pro09-javaweb-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter05-thymeleaf-fruit/pro10-fruit1.5-thymeleaf/pro10-fruit1.5-thymeleaf.iml" filepath="$PROJECT_DIR$/chapter05-thymeleaf-fruit/pro10-fruit1.5-thymeleaf/pro10-fruit1.5-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter05-thymeleaf-fruit/pro11-fruit1.6-pagination/pro11-fruit1.6-pagination.iml" filepath="$PROJECT_DIR$/chapter05-thymeleaf-fruit/pro11-fruit1.6-pagination/pro11-fruit1.6-pagination.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter05-thymeleaf-fruit/pro12-fruit1.7-keyword/pro12-fruit1.7-keyword.iml" filepath="$PROJECT_DIR$/chapter05-thymeleaf-fruit/pro12-fruit1.7-keyword/pro12-fruit1.7-keyword.iml" />
     </modules>
   </component>
 </project>
