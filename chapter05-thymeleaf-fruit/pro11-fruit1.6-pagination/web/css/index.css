@@ -78,6 +78,10 @@ a{
 	font-size: 30px;
 }
  #div_pagination{
-	 border: 1px solid red;
+	 border: 0px solid red;
 	 text-align: center;
  }
+
+#div_pagination .btn{
+	color: lightskyblue;
+}
