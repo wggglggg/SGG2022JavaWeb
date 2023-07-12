@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="pro12-fruit1.7-keyword:war exploded" />
+      <artifact name="pro16-fruit2.1-mvc-controller:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -20,8 +20,8 @@
       <list>
         <option value="Interface" />
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,8 +31,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,29 +57,29 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chapter05-thymeleaf-fruit/pro12-fruit1.7-keyword",
+    "last_opened_file_path": "C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/lib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.22569445",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "project.structure.side.proportion": "0.2768473",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\lib" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter06-servlet-mvc" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit\pro10-fruit1.5-thymeleaf\web" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit\pro10-fruit1.5-thymeleaf\web\css" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit\pro10-fruit1.5-thymeleaf\web\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit\pro10-fruit1.5-thymeleaf\web" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\lib" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit\pro10-fruit1.5-thymeleaf\web" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\test\pro09-fruit1.4-thymeleaf" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter04-servlet-http-session\pro07-javaweb-begin\src\com\begin01" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter04-servlet-http-session\pro07-javaweb-begin" />
@@ -89,35 +89,10 @@
       <recent name="com.thymeleaf.fruit.bean" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.90">
-    <configuration name="FruitDAOImpl.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro10-fruit1.5-thymeleaf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.fruit.dao.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demo.fruit.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.fruit.dao.impl.FruitDAOImpl" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexServlet.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro09-javaweb-thymeleaf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thymeleaf.fruit.servlets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thymeleaf.fruit.servlets" />
-      <option name="MAIN_CLASS_NAME" value="com.thymeleaf.fruit.servlets.IndexServlet" />
-      <option name="METHOD_NAME" value="testQuery" />
-      <option name="TEST_OBJECT" value="method" />
+  <component name="RunManager">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,21 +174,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52008" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro12/index" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro16/fruit.do" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="pro12-fruit1.7-keyword:war exploded">
+        <artifact name="pro16-fruit2.1-mvc-controller:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/pro12" />
+            <option name="CONTEXT_PATH" value="/pro16" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="e85275b6-d54d-4e6c-8458-51a57cd248e4" />
+        <option name="BASE_DIRECTORY_NAME" value="8c5abf50-875f-4087-84fd-f416d8f2a01c" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -286,11 +288,11 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="pro12-fruit1.7-keyword:war exploded" />
+          <artifact name="pro16-fruit2.1-mvc-controller:war exploded" />
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.42" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
       <server-settings>
@@ -368,20 +370,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.FruitDAOImpl.testUpdate" />
-      <item itemvalue="JUnit.IndexServlet.testQuery" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.90" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.FruitDAOImpl.testUpdate" />
-        <item itemvalue="JUnit.FruitDAOImpl.testUpdate" />
-        <item itemvalue="JUnit.FruitDAOImpl.testUpdate" />
-        <item itemvalue="JUnit.FruitDAOImpl.testUpdate" />
-        <item itemvalue="JUnit.FruitDAOImpl.testUpdate" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -426,21 +414,29 @@
       <workItem from="1688977812329" duration="2708000" />
       <workItem from="1688990578877" duration="5870000" />
       <workItem from="1689035106331" duration="6512000" />
+      <workItem from="1689060047434" duration="2278000" />
+      <workItem from="1689062363114" duration="226000" />
+      <workItem from="1689062624048" duration="1706000" />
+      <workItem from="1689064352709" duration="3216000" />
+      <workItem from="1689079788171" duration="4818000" />
+      <workItem from="1689084659387" duration="2567000" />
+      <workItem from="1689087385820" duration="39000" />
+      <workItem from="1689088410788" duration="527000" />
+      <workItem from="1689141563087" duration="7552000" />
+      <workItem from="1689149369242" duration="1933000" />
+      <workItem from="1689151519271" duration="1741000" />
+      <workItem from="1689153565675" duration="199000" />
+      <workItem from="1689153818762" duration="135000" />
+      <workItem from="1689154709836" duration="3106000" />
+      <workItem from="1689157832897" duration="199000" />
+      <workItem from="1689162072421" duration="194000" />
+      <workItem from="1689164977498" duration="2754000" />
+      <workItem from="1689167767951" duration="4991000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -20,7 +20,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="lib share all" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 8.5.90" level="application_server_libraries" />
     <orderEntry type="module-library" exported="">
       <library name="JUnit4">
         <CLASSES>
