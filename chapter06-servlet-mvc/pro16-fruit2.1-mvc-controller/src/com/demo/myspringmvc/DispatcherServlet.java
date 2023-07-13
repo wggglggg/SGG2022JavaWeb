@@ -20,6 +20,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.lang.reflect.Parameter;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -120,28 +121,76 @@ public class DispatcherServlet extends ViewBaseServlet {
 
         try {
             // 获取beanController中的与operatec对应的方法，operate会从网页端拿到del update add等值，
-            Method beanMethod = controllersBeanObj.getClass().getDeclaredMethod(operate, HttpServletRequest.class);
+            Method[] methods = controllersBeanObj.getClass().getDeclaredMethods();
 
-            if (beanMethod != null){
-                // 有些方法是private, 所以拿到public权限 才能操作它
-                //2.controller组件中的方法调用
-                // 调用类 中的方法，第一参数为哪个bean类，后面是方法的参数
-                beanMethod.setAccessible(true);
-                Object returnObj = beanMethod.invoke(controllersBeanObj, request);
-                String methodReturnStr = (String) returnObj;
-                // 3.视图处理
-                if (methodReturnStr.startsWith("redirect:")){  //比如：  redirect:fruit.do
-                    String redirectStr = methodReturnStr.substring("redirect:".length());
-                    response.sendRedirect(redirectStr);
-                } else {
-                    super.processTemplate(methodReturnStr, request, response);
+            for (Method beanMethod : methods){
+                if (operate.equals(beanMethod.getName())){
+                    //1.统一获取请求参数
+
+                    //1-1.获取当前方法的参数，返回参数数组
+                    Parameter[] parameters = beanMethod.getParameters();
+                    //1-2.parameterValues 用来承载参数的值
+                    Object[] parameterValues = new Object[parameters.length];
+                    for (int i = 0; i < parameters.length; i++) {
+                        Parameter parameter = parameters[i];
+                        //(Integer fid,HttpSession session),parameter(就是HttpSession session)
+                        // .getName就是获取到session和fid 这个"fid", "session"字符串
+                        String parameterName = parameter.getName();
+                        //如果参数名是request,response,session
+                        // 那么就不是通过请求中获取参数的方式了
+
+                        if ("request".equals(parameterName)){
+                            parameterValues[i] = request;
+                        } else if ("response".equals(parameterName)) {
+                            parameterValues[i] = response;
+                        } else if ("session".equals(parameterName)) {
+                            parameterValues[i] = request.getSession();
+                        } else {
+                            //从请求中获取参数值,以前是在FruitController里index add del方法中获取
+                            //request.getParameter("fid")
+                            String parameterValue = request.getParameter(parameterName);
+                            // 处理Integer类型的数据，request.getParameter("fid")获取到String,会转成Integer4
+                            if (parameterValue != null){
+                                //如果parameter也就是(Integer fid,HttpSession session)
+                                //.getType()获取到Intege HttpSession,
+                                //.getName()获取到"Integer" "HttpSession"
+                                if ("java.lang.Integer".equals(parameter.getType().getName())){
+                                    Object parameterInteger = Integer.parseInt(parameterValue);
+                                    parameterValues[i] = parameterInteger;
+                                    continue;
+                                }
+
+                            }
+                            parameterValues[i] = parameterValue;
+                        }
+
+                    }
+                    //2.controller组件中的方法调用
+                    beanMethod.setAccessible(true);
+                    // controllersBeanObj为bean类  也就是FruitController.class
+                    // parameterValues 也就是beanMethod对就的方法 add edit index这些方法里的参数值
+                    Object returnObj = beanMethod.invoke(controllersBeanObj, parameterValues);
+                    String methodReturnStr = (String) returnObj;
+                    // 3.视图处理
+                    if (methodReturnStr.startsWith("redirect:")){  //比如：  redirect:fruit.do
+                        String redirectStr = methodReturnStr.substring("redirect:".length());
+                        response.sendRedirect(redirectStr);
+                    } else {
+                        super.processTemplate(methodReturnStr, request, response);
+                    }
                 }
-            } else {
-                throw new RuntimeException("operate值 非法");
+
             }
 
-        } catch (NoSuchMethodException e) {
-            throw new RuntimeException(e);
+//            if (beanMethod != null){
+//                // 有些方法是private, 所以拿到public权限 才能操作它
+//                //2.controller组件中的方法调用
+//                // 调用类 中的方法，第一参数为哪个bean类，后面是方法的参数
+//
+//            } else {
+//                throw new RuntimeException("operate值 非法");
+//            }
+
         } catch (InvocationTargetException e) {
             throw new RuntimeException(e);
         } catch (IllegalAccessException e) {
