@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="pro16-fruit2.1-mvc-controller:war exploded" />
+      <artifact name="pro17-fruit2.2-mvc-service-ioc:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -18,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,12 +57,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/lib",
+    "last_opened_file_path": "C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chapter07-mvc-ioc-servlet/pro17-fruit2.2-mvc-service-ioc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2768473",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
@@ -71,11 +71,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter07-mvc-ioc-servlet" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\lib" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter06-servlet-mvc" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit\pro10-fruit1.5-thymeleaf\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\lib" />
@@ -205,14 +205,14 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro16/fruit.do" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro17/fruit.do" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="pro16-fruit2.1-mvc-controller:war exploded">
+        <artifact name="pro17-fruit2.2-mvc-service-ioc:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/pro16" />
+            <option name="CONTEXT_PATH" value="/pro17" />
           </settings>
         </artifact>
       </deployment>
@@ -290,7 +290,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="pro16-fruit2.1-mvc-controller:war exploded" />
+          <artifact name="pro17-fruit2.2-mvc-service-ioc:war exploded" />
         </option>
       </method>
     </configuration>
@@ -435,6 +435,9 @@
       <workItem from="1689164977498" duration="2754000" />
       <workItem from="1689167767951" duration="4991000" />
       <workItem from="1689208305779" duration="7066000" />
+      <workItem from="1689308550757" duration="6148000" />
+      <workItem from="1689315311928" duration="691000" />
+      <workItem from="1689339131469" duration="5264000" />
     </task>
     <servers />
   </component>
