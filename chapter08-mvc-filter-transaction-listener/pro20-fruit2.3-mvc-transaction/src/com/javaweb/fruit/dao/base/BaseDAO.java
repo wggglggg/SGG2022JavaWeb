@@ -1,5 +1,7 @@
 package com.javaweb.fruit.dao.base;
 
+import com.javaweb.exceps.DAOException;
+import com.javaweb.util.ConnUtil;
 import org.junit.Test;
 
 import java.lang.reflect.Field;
@@ -10,10 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class BaseDAO<T> {
-    public final String DRIVER = "com.mysql.cj.jdbc.Driver" ;
-    public final String URL = "jdbc:mysql:///fruitdb";
-    public final String USER = "root";
-    public final String PWD = "abc123" ;
+
 
     protected Connection conn ;
     protected PreparedStatement psmt ;
@@ -36,36 +35,18 @@ public abstract class BaseDAO<T> {
             entityClass = Class.forName(actualType.getTypeName());
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
+            throw new DAOException("BaseDAO构造器 错误");
         }
     }
 
     protected Connection getConn(){
-        try {
-            //1.加载驱动
-            Class.forName(DRIVER);
-            //2.通过驱动管理器获取连接对象
-            return DriverManager.getConnection(URL, USER, PWD);
-        } catch (ClassNotFoundException | SQLException e) {
-            e.printStackTrace();
-        }
-        return null ;
+        conn = ConnUtil.getConn();
+        return conn;
     }
 
-    protected void close(ResultSet rs , PreparedStatement psmt , Connection conn){
-        try {
-            if (rs != null) {
-                rs.close();
-            }
-            if(psmt!=null){
-                psmt.close();
-            }
-            if(conn!=null && !conn.isClosed()){
-                conn.close();
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
+//    protected void close(ResultSet rs , PreparedStatement psmt , Connection conn){
+//          关闭功能移动到了ConnUtil内
+//    }
 
     //给预处理命令对象设置参数
     private void setParams(PreparedStatement psmt , Object... params) throws SQLException {
@@ -92,11 +73,6 @@ public abstract class BaseDAO<T> {
             setParams(psmt,params);
             int count = psmt.executeUpdate() ;
 
-//            rs = psmt.getGeneratedKeys();
-//            if(rs.next()){
-//                return ((Long)rs.getLong(1)).intValue();
-//            }
-
             if(insertFlag) {
                 rs = psmt.getGeneratedKeys();
                 if (rs.next()) {
@@ -106,10 +82,8 @@ public abstract class BaseDAO<T> {
             return count ;
         } catch (SQLException e) {
             e.printStackTrace();
-        }finally {
-            close(rs,psmt,conn);
+            throw new DAOException("BaseDAO executeUpdate 错误");
         }
-        return 0;
     }
 
     //通过反射技术给obj对象的property属性赋propertyValue值
@@ -152,8 +126,7 @@ public abstract class BaseDAO<T> {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-        } finally {
-            close(rs,psmt,conn);
+            throw new DAOException("BaseDAO executeComplexQuery 错误");
         }
         return null ;
     }
@@ -183,14 +156,9 @@ public abstract class BaseDAO<T> {
                 }
                 return entity ;
             }
-        } catch (SQLException e) {
+        } catch (Exception e) {
             e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } finally {
-            close(rs,psmt,conn);
+            throw new DAOException("BaseDAO load错误");
         }
         return null ;
     }
@@ -222,14 +190,9 @@ public abstract class BaseDAO<T> {
                 }
                 list.add(entity);
             }
-        } catch (SQLException e) {
+        } catch (Exception e) {
             e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } finally {
-            close(rs,psmt,conn);
+            throw new DAOException("BaseDAO executeQuery错误");
         }
         return list ;
     }

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter05-thymeleaf-fruit/chapter05-thymeleaf-fruit.iml" filepath="$PROJECT_DIR$/chapter05-thymeleaf-fruit/chapter05-thymeleaf-fruit.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter06-servlet-mvc/chapter06-servlet-mvc.iml" filepath="$PROJECT_DIR$/chapter06-servlet-mvc/chapter06-servlet-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter07-mvc-ioc-servlet/chapter07-mvc-ioc-servlet.iml" filepath="$PROJECT_DIR$/chapter07-mvc-ioc-servlet/chapter07-mvc-ioc-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter08-mvc-filter-transaction-listener/chapter08-mvc-filter-transaction-listener.iml" filepath="$PROJECT_DIR$/chapter08-mvc-filter-transaction-listener/chapter08-mvc-filter-transaction-listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3-tomcat-servlet/chapter3-tomcat-servlet.iml" filepath="$PROJECT_DIR$/chapter3-tomcat-servlet/chapter3-tomcat-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04-servlet-http-session/pro07-javaweb-begin/pro07-javaweb-begin.iml" filepath="$PROJECT_DIR$/chapter04-servlet-http-session/pro07-javaweb-begin/pro07-javaweb-begin.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04-servlet-http-session/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" filepath="$PROJECT_DIR$/chapter04-servlet-http-session/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" />
@@ -20,6 +21,8 @@
       <module fileurl="file://$PROJECT_DIR$/chapter06-servlet-mvc/pro16-fruit2.1-mvc-controller/pro16-fruit2.1-mvc-controller.iml" filepath="$PROJECT_DIR$/chapter06-servlet-mvc/pro16-fruit2.1-mvc-controller/pro16-fruit2.1-mvc-controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter07-mvc-ioc-servlet/pro17-fruit2.2-mvc-service-ioc/pro17-fruit2.2-mvc-service-ioc.iml" filepath="$PROJECT_DIR$/chapter07-mvc-ioc-servlet/pro17-fruit2.2-mvc-service-ioc/pro17-fruit2.2-mvc-service-ioc.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter07-mvc-ioc-servlet/pro18-servlet-api/pro18-servlet-api.iml" filepath="$PROJECT_DIR$/chapter07-mvc-ioc-servlet/pro18-servlet-api/pro18-servlet-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter08-mvc-filter-transaction-listener/pro19-filter-listener/pro19-filter-listener.iml" filepath="$PROJECT_DIR$/chapter08-mvc-filter-transaction-listener/pro19-filter-listener/pro19-filter-listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter08-mvc-filter-transaction-listener/pro20-fruit2.3-mvc-transaction/pro20-fruit2.3-mvc-transaction.iml" filepath="$PROJECT_DIR$/chapter08-mvc-filter-transaction-listener/pro20-fruit2.3-mvc-transaction/pro20-fruit2.3-mvc-transaction.iml" />
     </modules>
   </component>
 </project>

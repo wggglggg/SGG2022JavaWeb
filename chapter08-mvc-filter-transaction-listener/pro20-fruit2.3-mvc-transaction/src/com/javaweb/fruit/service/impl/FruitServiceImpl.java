@@ -4,6 +4,7 @@ import com.javaweb.fruit.bean.Fruit;
 import com.javaweb.fruit.dao.FruitDAO;
 import com.javaweb.fruit.dao.impl.FruitDAOImpl;
 import com.javaweb.fruit.service.FruitService;
+import com.javaweb.util.ConnUtil;
 
 import java.util.List;
 
@@ -21,6 +22,7 @@ public class FruitServiceImpl implements FruitService {
 
     @Override
     public List<Fruit> getFruitList(int pageNo, String keyword) {
+        System.out.println("getFruitList -> " + ConnUtil.getConn());
         return fruitDAO.getFruitList(pageNo, keyword);
     }
 
@@ -42,10 +44,14 @@ public class FruitServiceImpl implements FruitService {
     @Override
     public void addFruit(Fruit fruit) {
         fruitDAO.addFruit(fruit);
+        Fruit fruit2 = fruitDAO.getFruitById(10);
+        fruit2.setFcount(99);
+        fruitDAO.updateFruit(fruit2);
     }
 
     @Override
     public Long getFruitCount() {
+        System.out.println("getFruitCount -> " + ConnUtil.getConn());
         return fruitDAO.getFruitCount();
     }
 }
