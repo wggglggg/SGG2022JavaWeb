@@ -1,9 +1,7 @@
 package com.javaweb.fruit.controllers;
 
 import com.javaweb.fruit.bean.Fruit;
-import com.javaweb.fruit.dao.impl.FruitDAOImpl;
 import com.javaweb.fruit.service.FruitService;
-import com.javaweb.fruit.service.impl.FruitServiceImpl;
 import com.javaweb.util.StringUtil;
 
 import javax.servlet.http.HttpServletRequest;

@@ -2,7 +2,6 @@ package com.javaweb.fruit.dao.base;
 
 import com.javaweb.exceps.DAOException;
 import com.javaweb.util.ConnUtil;
-import org.junit.Test;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;

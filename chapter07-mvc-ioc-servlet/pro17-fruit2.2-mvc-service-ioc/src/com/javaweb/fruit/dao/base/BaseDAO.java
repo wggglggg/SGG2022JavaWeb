@@ -1,7 +1,5 @@
 package com.javaweb.fruit.dao.base;
 
-import org.junit.Test;
-
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

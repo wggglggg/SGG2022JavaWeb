@@ -2,7 +2,6 @@ package com.javaweb.fruit.service.impl;
 
 import com.javaweb.fruit.bean.Fruit;
 import com.javaweb.fruit.dao.FruitDAO;
-import com.javaweb.fruit.dao.impl.FruitDAOImpl;
 import com.javaweb.fruit.service.FruitService;
 
 import java.util.List;
