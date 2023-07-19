@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="pro21-qqzone 1.0:war exploded" />
+      <artifact name="pro22-qqzone 1.0:war exploded" />
+      <artifact name="pro22-qqzone 1.0:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -57,7 +58,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chapter09-qqzone/pro21-qqzone 1.0/qqzone-orgin-database&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chatper10-qqzone/pro22-qqzone 1.0/pro22-qqzone 1.0.iml&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,11 +72,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chatper10-qqzone" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter09-qqzone\pro21-qqzone 1.0\qqzone-orgin-database" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter09-qqzone\pro21-qqzone 1.0\web" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter09-qqzone\pro21-qqzone 1.0\qqzone-origin-html" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter09-qqzone" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter08-mvc-filter-transaction-listener" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\lib" />
@@ -91,6 +92,38 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.90">
+    <configuration name="HostReplyDAOImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro22-qqzone 1.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaweb.qqzone.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaweb.qqzone.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.javaweb.qqzone.dao.impl.HostReplyDAOImpl" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HostReplyDAOImpl.testHostReply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro22-qqzone 1.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaweb.qqzone.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaweb.qqzone.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.javaweb.qqzone.dao.impl.HostReplyDAOImpl" />
+      <option name="METHOD_NAME" value="testHostReply" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserBasicDAOImpl.testGetUseBasicList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro21-qqzone 1.0" />
       <extension name="coverage">
@@ -222,13 +255,15 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro21/page.do?operate=page&amp;page=login" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro22/page.do?operate=page&amp;page=login" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="pro21-qqzone 1.0:war exploded">
+        <artifact name="pro22-qqzone 1.0:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/pro21" />
+            <option name="CONTEXT_PATH" value="/pro22" />
           </settings>
         </artifact>
       </deployment>
@@ -306,7 +341,8 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="pro21-qqzone 1.0:war exploded" />
+          <artifact name="pro22-qqzone 1.0:war exploded" />
+          <artifact name="pro22-qqzone 1.0:war exploded" />
         </option>
       </method>
     </configuration>
@@ -389,11 +425,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.HostReplyDAOImpl" />
+      <item itemvalue="JUnit.HostReplyDAOImpl.testHostReply" />
       <item itemvalue="JUnit.UserBasicDAOImpl.testGetUseBasicList" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.90" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HostReplyDAOImpl.testHostReply" />
+        <item itemvalue="JUnit.HostReplyDAOImpl" />
         <item itemvalue="JUnit.UserBasicDAOImpl.testGetUseBasicList" />
       </list>
     </recent_temporary>
@@ -469,6 +509,11 @@
       <workItem from="1689602888185" duration="3686000" />
       <workItem from="1689606607427" duration="988000" />
       <workItem from="1689607607757" duration="1641000" />
+      <workItem from="1689644274499" duration="1144000" />
+      <workItem from="1689645437166" duration="11283000" />
+      <workItem from="1689724724797" duration="22432000" />
+      <workItem from="1689764211771" duration="574000" />
+      <workItem from="1689769356739" duration="2932000" />
     </task>
     <servers />
   </component>
@@ -487,6 +532,11 @@
           <url>file://$PROJECT_DIR$/chapter09-qqzone/pro21-qqzone 1.0/src/com/javaweb/qqzone/dao/base/BaseDAO.java</url>
           <line>90</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chatper10-qqzone/pro22-qqzone 1.0/src/com/javaweb/qqzone/dao/impl/ReplyDAOImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
