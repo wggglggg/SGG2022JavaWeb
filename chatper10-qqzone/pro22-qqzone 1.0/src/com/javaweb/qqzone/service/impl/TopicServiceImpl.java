@@ -49,8 +49,20 @@ public class TopicServiceImpl implements TopicService {
 
         topic.setAuthor(author);
         return topic;
+    }
 
+    @Override
+    public void delTopicById(Integer id) {
+        Topic topic = topicDAO.getTopic(id);
+        if (topic != null){
+            replyService.delReplyList(topic);
+            topicDAO.delTopic(topic);
+        }
+    }
 
+    @Override
+    public void addTopic(Topic topic) {
+        topicDAO.addTopic(topic);
     }
 
 

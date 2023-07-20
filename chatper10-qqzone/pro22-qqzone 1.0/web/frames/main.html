@@ -1,15 +1,24 @@
-<!--<!DOCTYPE html>-->
+<!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" th:href="@{/css/common.css}">
     <link rel="stylesheet" th:href="@{/css/main.css}">
+    <script>
+        function delTopic(topicId) {
+            if (window.confirm("确定删除文章吗?")){
+                window.location.href="topic.do?operate=delTopic&topicId=" + topicId;
+            }
+        }
+
+    </script>
 </head>
 <body>
     <div id="div_topic_list">
         <div id="div_to_add">
-            <p class="right8">发表新日志2</p>
+            <p class="right8" >
+                <a th:href="|@{/page.do?operate=page&page=frames/add}|" th:if="${session.userBasic.id==session.friend.id}">发表新日志</a></p>
         </div>
         <table id="tbl_topic_list">
             <tr>
@@ -19,14 +28,16 @@
                 <th>操作</th>
             </tr>
             <tr th:if="${#lists.isEmpty(session.friend.topicList)}">
-                 <td class="left" ><a href="detail.html">没有文章</a></td>
+                 <th class="left" colspan="4"><a href="#">没有文章</a></th>
             </tr>
             <tr th:unless="${#lists.isEmpty(session.friend.topicList)}"
             th:each="topic : ${session.friend.topicList}">
                 <td th:text="${topic.id}">2</td>
                 <td class="left" ><a th:href="@{|/topic.do?operate=topicDetail&id=${topic.id}|}" th:text="${topic.title}">我乔峰要走，你们谁可阻拦</a></td>
                 <td th:text="${topic.topicDate}">2021-09-01 12:30:55</td>
-                <td>删除</td>
+                <td >
+                    <input type="button" th:if="${session.userBasic.id==session.friend.id}" th:onclick="|delTopic(${topic.id})|" value="删除">
+                </td>
             </tr>
 
         </table>

@@ -1,6 +1,7 @@
 package com.javaweb.qqzone.service;
 
 import com.javaweb.qqzone.bean.Reply;
+import com.javaweb.qqzone.bean.Topic;
 
 import java.util.List;
 
@@ -19,4 +20,6 @@ public interface ReplyService {
     void addReply(Reply reply);
 
     void delReply(Integer id);
+
+    void delReplyList(Topic topic);
 }

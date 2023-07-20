@@ -71,3 +71,12 @@ body{
     width:24px;
     height: 24px;
 }
+
+.add_reply_title{
+    font-size:16px;
+    width:100%;
+    margin-left:10%;
+    border-bottom: 1px solid lightgray;
+    margin-top :60px;
+
+}

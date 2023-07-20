@@ -3,7 +3,6 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="pro22-qqzone 1.0:war exploded" />
-      <artifact name="pro22-qqzone 1.0:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -20,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -514,6 +513,8 @@
       <workItem from="1689724724797" duration="22432000" />
       <workItem from="1689764211771" duration="574000" />
       <workItem from="1689769356739" duration="2932000" />
+      <workItem from="1689772853161" duration="669000" />
+      <workItem from="1689814184472" duration="8588000" />
     </task>
     <servers />
   </component>
@@ -532,11 +533,6 @@
           <url>file://$PROJECT_DIR$/chapter09-qqzone/pro21-qqzone 1.0/src/com/javaweb/qqzone/dao/base/BaseDAO.java</url>
           <line>90</line>
           <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chatper10-qqzone/pro22-qqzone 1.0/src/com/javaweb/qqzone/dao/impl/ReplyDAOImpl.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

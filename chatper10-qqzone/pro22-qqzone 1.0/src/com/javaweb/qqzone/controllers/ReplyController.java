@@ -27,14 +27,14 @@ public class ReplyController {
 
     public String addReply(String content, Integer topicId, HttpSession session) throws ParseException {
         UserBasic author = (UserBasic) session.getAttribute("userBasic");
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        java.util.Date parse = sdf.parse("2023-7-19");
+//        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+//        java.util.Date parse = sdf.parse("2023-7-19");
 
-        long l = System.currentTimeMillis();
-        System.out.println("l = " + l);
+        long currentTime = System.currentTimeMillis();
+        System.out.println("currentTime " + currentTime);
 
 
-        Reply reply = new Reply(content, new Date(l), author, new Topic(topicId));
+        Reply reply = new Reply(content, new Date(currentTime), author, new Topic(topicId));
 
         replyService.addReply(reply);
 
@@ -43,8 +43,6 @@ public class ReplyController {
 
     public String delReply(Integer replyId, Integer topicId){
         replyService.delReply(replyId);
-
-
 
         return "redirect:topic.do?operate=topicDetail&id=" + topicId;
     }
