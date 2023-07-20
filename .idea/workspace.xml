@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="pro22-qqzone 1.0:war exploded" />
+      <artifact name="pro24-book:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -20,8 +20,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,43 +46,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chatper10-qqzone/pro22-qqzone 1.0/pro22-qqzone 1.0.iml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2768473&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chapter11-book/pro24-book/web",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2768473",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chatper10-qqzone" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter09-qqzone\pro21-qqzone 1.0\qqzone-orgin-database" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter09-qqzone\pro21-qqzone 1.0\web" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter09-qqzone\pro21-qqzone 1.0\qqzone-origin-html" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter11-book\pro24-book\web" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter11-book\pro24-book\web\WEB-INF" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter10-qqzone" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter11-book" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter10-qqzone\pro22-qqzone 1.0\qqzone-origin-html\frames" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\lib" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\out" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chatper10-qqzone\pro22-qqzone 1.0\src" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chatper10-qqzone\pro22-qqzone 1.0" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit\pro10-fruit1.5-thymeleaf\web" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\test\pro09-fruit1.4-thymeleaf" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter04-servlet-http-session\pro07-javaweb-begin\src\com\begin01" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter04-servlet-http-session\pro07-javaweb-begin" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.javaweb.filters" />
@@ -91,6 +91,22 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.90">
+    <configuration name="ConnUtil.testConn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro22-qqzone 1.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaweb.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaweb.util" />
+      <option name="MAIN_CLASS_NAME" value="com.javaweb.util.ConnUtil" />
+      <option name="METHOD_NAME" value="testConn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HostReplyDAOImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro22-qqzone 1.0" />
       <extension name="coverage">
@@ -254,15 +270,13 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro22/page.do?operate=page&amp;page=login" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro24/page.do?operate=page&amp;page=user/login" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="pro22-qqzone 1.0:war exploded">
+        <artifact name="pro24-book:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/pro22" />
+            <option name="CONTEXT_PATH" value="/pro24" />
           </settings>
         </artifact>
       </deployment>
@@ -340,8 +354,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="pro22-qqzone 1.0:war exploded" />
-          <artifact name="pro22-qqzone 1.0:war exploded" />
+          <artifact name="pro24-book:war exploded" />
         </option>
       </method>
     </configuration>
@@ -424,6 +437,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.ConnUtil.testConn" />
       <item itemvalue="JUnit.HostReplyDAOImpl" />
       <item itemvalue="JUnit.HostReplyDAOImpl.testHostReply" />
       <item itemvalue="JUnit.UserBasicDAOImpl.testGetUseBasicList" />
@@ -431,6 +445,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConnUtil.testConn" />
         <item itemvalue="JUnit.HostReplyDAOImpl.testHostReply" />
         <item itemvalue="JUnit.HostReplyDAOImpl" />
         <item itemvalue="JUnit.UserBasicDAOImpl.testGetUseBasicList" />
@@ -515,6 +530,8 @@
       <workItem from="1689769356739" duration="2932000" />
       <workItem from="1689772853161" duration="669000" />
       <workItem from="1689814184472" duration="8588000" />
+      <workItem from="1689836367757" duration="8089000" />
+      <workItem from="1689859129150" duration="2890000" />
     </task>
     <servers />
   </component>

@@ -9,8 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/chapter07-mvc-ioc-servlet/chapter07-mvc-ioc-servlet.iml" filepath="$PROJECT_DIR$/chapter07-mvc-ioc-servlet/chapter07-mvc-ioc-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter08-mvc-filter-transaction-listener/chapter08-mvc-filter-transaction-listener.iml" filepath="$PROJECT_DIR$/chapter08-mvc-filter-transaction-listener/chapter08-mvc-filter-transaction-listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter09-qqzone/chapter09-qqzone.iml" filepath="$PROJECT_DIR$/chapter09-qqzone/chapter09-qqzone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter10-qqzone/chapter10-qqzone.iml" filepath="$PROJECT_DIR$/chapter10-qqzone/chapter10-qqzone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter11-book/chapter11-book.iml" filepath="$PROJECT_DIR$/chapter11-book/chapter11-book.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3-tomcat-servlet/chapter3-tomcat-servlet.iml" filepath="$PROJECT_DIR$/chapter3-tomcat-servlet/chapter3-tomcat-servlet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chatper10-qqzone/chatper10-qqzone.iml" filepath="$PROJECT_DIR$/chatper10-qqzone/chatper10-qqzone.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04-servlet-http-session/pro07-javaweb-begin/pro07-javaweb-begin.iml" filepath="$PROJECT_DIR$/chapter04-servlet-http-session/pro07-javaweb-begin/pro07-javaweb-begin.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04-servlet-http-session/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" filepath="$PROJECT_DIR$/chapter04-servlet-http-session/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04-servlet-http-session/pro09-javaweb-thymeleaf/pro09-javaweb-thymeleaf.iml" filepath="$PROJECT_DIR$/chapter04-servlet-http-session/pro09-javaweb-thymeleaf/pro09-javaweb-thymeleaf.iml" />
@@ -26,7 +27,9 @@
       <module fileurl="file://$PROJECT_DIR$/chapter08-mvc-filter-transaction-listener/pro19-filter-listener/pro19-filter-listener.iml" filepath="$PROJECT_DIR$/chapter08-mvc-filter-transaction-listener/pro19-filter-listener/pro19-filter-listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter08-mvc-filter-transaction-listener/pro20-fruit2.3-mvc-transaction/pro20-fruit2.3-mvc-transaction.iml" filepath="$PROJECT_DIR$/chapter08-mvc-filter-transaction-listener/pro20-fruit2.3-mvc-transaction/pro20-fruit2.3-mvc-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter09-qqzone/pro21-qqzone 1.0/pro21-qqzone 1.0.iml" filepath="$PROJECT_DIR$/chapter09-qqzone/pro21-qqzone 1.0/pro21-qqzone 1.0.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chatper10-qqzone/pro22-qqzone 1.0/pro22-qqzone 1.0.iml" filepath="$PROJECT_DIR$/chatper10-qqzone/pro22-qqzone 1.0/pro22-qqzone 1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter10-qqzone/pro22-qqzone 1.0/pro22-qqzone 1.0.iml" filepath="$PROJECT_DIR$/chapter10-qqzone/pro22-qqzone 1.0/pro22-qqzone 1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter11-book/pro23-qqzone 1.1/pro23-qqzone 1.1.iml" filepath="$PROJECT_DIR$/chapter11-book/pro23-qqzone 1.1/pro23-qqzone 1.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter11-book/pro24-book/pro24-book.iml" filepath="$PROJECT_DIR$/chapter11-book/pro24-book/pro24-book.iml" />
     </modules>
   </component>
 </project>
