@@ -19,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,29 +46,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chapter11-book/pro24-book/web",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2768473",
-    "settings.editor.selected.configurable": "editor.preferences.import",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chapter11-book/pro24-book/web&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2768473&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter11-book\pro24-book\web" />
@@ -78,11 +78,11 @@
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter10-qqzone\pro22-qqzone 1.0\qqzone-origin-html\frames" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\lib_myssm" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\lib" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\out" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chatper10-qqzone\pro22-qqzone 1.0\src" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chatper10-qqzone\pro22-qqzone 1.0" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter05-thymeleaf-fruit\pro10-fruit1.5-thymeleaf\web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.javaweb.filters" />
@@ -91,6 +91,22 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.90">
+    <configuration name="BookDAOImpl.testGetBookList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro24-book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaweb.book.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaweb.book.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.dao.impl.BookDAOImpl" />
+      <option name="METHOD_NAME" value="testGetBookList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConnUtil.testConn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro22-qqzone 1.0" />
       <extension name="coverage">
@@ -437,6 +453,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.BookDAOImpl.testGetBookList" />
       <item itemvalue="JUnit.ConnUtil.testConn" />
       <item itemvalue="JUnit.HostReplyDAOImpl" />
       <item itemvalue="JUnit.HostReplyDAOImpl.testHostReply" />
@@ -445,6 +462,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookDAOImpl.testGetBookList" />
         <item itemvalue="JUnit.ConnUtil.testConn" />
         <item itemvalue="JUnit.HostReplyDAOImpl.testHostReply" />
         <item itemvalue="JUnit.HostReplyDAOImpl" />
@@ -532,6 +550,8 @@
       <workItem from="1689814184472" duration="8588000" />
       <workItem from="1689836367757" duration="8089000" />
       <workItem from="1689859129150" duration="2890000" />
+      <workItem from="1689900146796" duration="9825000" />
+      <workItem from="1689920476330" duration="2527000" />
     </task>
     <servers />
   </component>
