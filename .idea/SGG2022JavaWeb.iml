@@ -6,5 +6,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="lib share all" level="project" />
+    <orderEntry type="library" name="lib_myssm" level="project" />
   </component>
 </module>

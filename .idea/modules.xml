@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter09-qqzone/chapter09-qqzone.iml" filepath="$PROJECT_DIR$/chapter09-qqzone/chapter09-qqzone.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter10-qqzone/chapter10-qqzone.iml" filepath="$PROJECT_DIR$/chapter10-qqzone/chapter10-qqzone.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter11-book/chapter11-book.iml" filepath="$PROJECT_DIR$/chapter11-book/chapter11-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter12-book/chapter12-book.iml" filepath="$PROJECT_DIR$/chapter12-book/chapter12-book.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3-tomcat-servlet/chapter3-tomcat-servlet.iml" filepath="$PROJECT_DIR$/chapter3-tomcat-servlet/chapter3-tomcat-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04-servlet-http-session/pro07-javaweb-begin/pro07-javaweb-begin.iml" filepath="$PROJECT_DIR$/chapter04-servlet-http-session/pro07-javaweb-begin/pro07-javaweb-begin.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04-servlet-http-session/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" filepath="$PROJECT_DIR$/chapter04-servlet-http-session/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" />
@@ -30,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter10-qqzone/pro22-qqzone 1.0/pro22-qqzone 1.0.iml" filepath="$PROJECT_DIR$/chapter10-qqzone/pro22-qqzone 1.0/pro22-qqzone 1.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter11-book/pro23-qqzone 1.1/pro23-qqzone 1.1.iml" filepath="$PROJECT_DIR$/chapter11-book/pro23-qqzone 1.1/pro23-qqzone 1.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter11-book/pro24-book/pro24-book.iml" filepath="$PROJECT_DIR$/chapter11-book/pro24-book/pro24-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter12-book/pro25-book/pro25-book.iml" filepath="$PROJECT_DIR$/chapter12-book/pro25-book/pro25-book.iml" />
     </modules>
   </component>
 </project>

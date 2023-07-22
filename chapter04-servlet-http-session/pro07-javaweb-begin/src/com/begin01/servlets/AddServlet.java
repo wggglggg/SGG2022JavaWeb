@@ -2,10 +2,10 @@ package com.begin01.servlets;
 
 import com.begin01.fruit.bean.Fruit;
 import com.begin01.fruit.dao.impl.FruitDAOImpl;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 

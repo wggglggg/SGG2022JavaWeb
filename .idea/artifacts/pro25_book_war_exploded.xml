@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pro25-book:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pro25_book_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pro25-book" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib share all" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="pro25-book/web/Web" />
+    </root>
+  </artifact>
+</component>
