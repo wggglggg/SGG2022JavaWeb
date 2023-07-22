@@ -27,6 +27,9 @@
     <bean id="cart" class="com.javaweb.book.controllers.CartController">
         <property name="cartItemService" ref="cartItemService"/>
     </bean>
+    <bean id="order" class="com.javaweb.book.controllers.OrderController">
+        <property name="orderService" ref="orderService"/>
+    </bean>
 
     <!-- Service   -->
     <bean id="userService" class="com.javaweb.book.service.impl.UserServiceImpl">
@@ -39,11 +42,18 @@
         <property name="cartItemDAO" ref="cartItemDAO"/>
         <property name="bookService" ref="bookService"/>
     </bean>
+    <bean id="orderService" class="com.javaweb.book.service.impl.OrderServiceImpl">
+        <property name="orderDAO" ref="orderDAO"/>
+        <property name="orderItemDAO" ref="orderItemDAO"/>
+        <property name="cartItemDAO" ref="cartItemDAO"/>
+    </bean>
 
     <!-- DAO  -->
     <bean id="userDAO" class="com.javaweb.book.dao.impl.UserDAOImpl"/>
     <bean id="bookDAO" class="com.javaweb.book.dao.impl.BookDAOImpl"/>
     <bean id="cartItemDAO" class="com.javaweb.book.dao.impl.CartItemDAOImpl"/>
+    <bean id="orderDAO" class="com.javaweb.book.dao.impl.OrderDAOImpl"/>
+    <bean id="orderItemDAO" class="com.javaweb.book.dao.impl.OrderItemDAOImpl"/>
 </beans>
 
 <!--

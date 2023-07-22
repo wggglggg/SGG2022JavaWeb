@@ -19,7 +19,7 @@ public class OrderBean {
     private Double orderMoney;
     private Integer orderStatus;
 
-
+    private Integer totalBookCount;
     private List<OrderItem> orderItemList;   // 一个Order订单 1:N 多本图书
 
     public OrderBean() {
@@ -29,15 +29,18 @@ public class OrderBean {
         this.id = id;
     }
 
-    public OrderBean(Integer id, String orderNo, LocalDateTime orderDate, User orderUser, Double orderMoney, Integer orderStatus, List<OrderItem> orderItemList) {
+    public OrderBean(Integer id, String orderNo, LocalDateTime orderDate, User orderUser, Double orderMoney, Integer orderStatus, Integer totalBookCount, List<OrderItem> orderItemList) {
         this.id = id;
         this.orderNo = orderNo;
         this.orderDate = orderDate;
         this.orderUser = orderUser;
         this.orderMoney = orderMoney;
         this.orderStatus = orderStatus;
+        this.totalBookCount = totalBookCount;
         this.orderItemList = orderItemList;
     }
+
+
 
     public Integer getId() {
         return id;
@@ -92,7 +95,16 @@ public class OrderBean {
     }
 
     public void setOrderItemList(List<OrderItem> orderItemList) {
+
         this.orderItemList = orderItemList;
+    }
+
+    public Integer getTotalBookCount() {
+        return totalBookCount;
+    }
+
+    public void setTotalBookCount(Integer totalBookCount) {
+        this.totalBookCount = totalBookCount;
     }
 
     @Override
@@ -104,6 +116,7 @@ public class OrderBean {
                 ", orderUser=" + orderUser +
                 ", orderMoney=" + orderMoney +
                 ", orderStatus=" + orderStatus +
+                ", totalBookCount=" + totalBookCount +
                 ", orderItemList=" + orderItemList +
                 '}';
     }

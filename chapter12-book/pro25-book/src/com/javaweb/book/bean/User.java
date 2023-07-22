@@ -1,5 +1,7 @@
 package com.javaweb.book.bean;
 
+import java.util.List;
+
 /**
  * ClassName: User
  * Description:
@@ -16,6 +18,16 @@ public class User {
     private Integer role;
 
     private Cart cart;
+    private List<OrderBean> orderBeanList;
+
+
+    public List<OrderBean> getOrderBeanList() {
+        return orderBeanList;
+    }
+
+    public void setOrderBeanList(List<OrderBean> orderBeanList) {
+        this.orderBeanList = orderBeanList;
+    }
 
     public Cart getCart() {
         return cart;

@@ -35,5 +35,11 @@ public class CartItemDAOImpl extends BaseDAO<CartItem> implements CartItemDAO {
         return executeQuery(sql, user.getId());
     }
 
+    @Override
+    public void delCartItem(CartItem cartItem) {
+        String sql = "delete from t_cart_item where id = ?";
+        executeUpdate(sql, cartItem.getId());
+    }
+
 
 }

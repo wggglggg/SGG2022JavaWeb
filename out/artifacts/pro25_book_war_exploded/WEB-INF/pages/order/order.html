@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>我的订单</title>
-    <link rel="stylesheet" href="../../static/css/minireset.css" />
-    <link rel="stylesheet" href="../../static/css/common.css" />
-    <link rel="stylesheet" href="../../static/css/cart.css" />
-    <link rel="stylesheet" href="../../static/css/bookManger.css" />
-    <link rel="stylesheet" href="../../static/css/orderManger.css" />
+    <link rel="stylesheet" th:href="@{/static/css/minireset.css}" />
+    <link rel="stylesheet" th:href="@{/static/css/common.css}" />
+    <link rel="stylesheet" th:href="@{/static/css/cart.css}" />
+    <link rel="stylesheet" th:href="@{/static/css/bookManger.css}" />
+    <link rel="stylesheet" th:href="@{/static/css/orderManger.css}" />
   </head>
   <body>
     <div class="header">
@@ -20,7 +20,7 @@
           <h1>我的订单</h1>
         </div>
         <div class="header-right">
-          <h3>欢迎<span>张总</span>光临尚硅谷书城</h3>
+          <h3>欢迎<span th:text="${session.currentUser.uname}">张总</span>光临尚硅谷书城</h3>
           <div class="order"><a href="../order/order.html">我的订单</a></div>
           <div class="destory"><a href="../../index.html">注销</a></div>
           <div class="gohome">
@@ -43,36 +43,36 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>12354456895</td>
-              <td>
+            <tr th:each="orderBean : ${session.currentUser.orderBeanList}">
+              <td th:text="${orderBean.orderNo}">12354456895</td>
+              <td th:text="${orderBean.orderDate}">
                 2015.04.23
               </td>
-              <td>90.00</td>
-              <td>88</td>
+              <td th:text="${orderBean.orderMoney}">90.00</td>
+              <td th:text="${orderBean.totalBookCount}">88</td>
               <td><a href="" class="send">等待发货</a></td>
               <td><a href="">查看详情</a></td>
             </tr>
-            <tr>
-              <td>12354456895</td>
-              <td>
-                2015.04.23
-              </td>
-              <td>90.00</td>
-              <td>88</td>
-              <td><a href="" class="send">未发货</a></td>
-              <td><a href="">查看详情</a></td>
-            </tr>
-            <tr>
-              <td>12354456895</td>
-              <td>
-                2015.04.23
-              </td>
-              <td>90.00</td>
-              <td>88</td>
-              <td><a href="" class="send">已发货</a></td>
-              <td><a href="">查看详情</a></td>
-            </tr>
+<!--            <tr>-->
+<!--              <td>12354456895</td>-->
+<!--              <td>-->
+<!--                2015.04.23-->
+<!--              </td>-->
+<!--              <td>90.00</td>-->
+<!--              <td>88</td>-->
+<!--              <td><a href="" class="send">未发货</a></td>-->
+<!--              <td><a href="">查看详情</a></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--              <td>12354456895</td>-->
+<!--              <td>-->
+<!--                2015.04.23-->
+<!--              </td>-->
+<!--              <td>90.00</td>-->
+<!--              <td>88</td>-->
+<!--              <td><a href="" class="send">已发货</a></td>-->
+<!--              <td><a href="">查看详情</a></td>-->
+<!--            </tr>-->
           </tbody>
         </table>
         <div class="footer">

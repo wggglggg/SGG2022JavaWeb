@@ -20,8 +20,8 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -123,22 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HostReplyDAOImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro22-qqzone 1.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaweb.qqzone.dao.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javaweb.qqzone.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.javaweb.qqzone.dao.impl.HostReplyDAOImpl" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HostReplyDAOImpl.testHostReply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro22-qqzone 1.0" />
       <extension name="coverage">
@@ -155,17 +139,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserBasicDAOImpl.testGetUseBasicList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro21-qqzone 1.0" />
+    <configuration name="OrderController.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro25-book" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaweb.qqzone.dao.impl.*" />
+          <option name="PATTERN" value="com.javaweb.book.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javaweb.qqzone.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.javaweb.qqzone.dao.impl.UserBasicDAOImpl" />
-      <option name="METHOD_NAME" value="testGetUseBasicList" />
+      <option name="PACKAGE_NAME" value="com.javaweb.book.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.controllers.OrderController" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderController.testTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro25-book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaweb.book.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaweb.book.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.controllers.OrderController" />
+      <option name="METHOD_NAME" value="testTime" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -453,20 +453,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.OrderController.test" />
+      <item itemvalue="JUnit.OrderController.testTime" />
       <item itemvalue="JUnit.BookDAOImpl.testGetBookList" />
       <item itemvalue="JUnit.ConnUtil.testConn" />
-      <item itemvalue="JUnit.HostReplyDAOImpl" />
       <item itemvalue="JUnit.HostReplyDAOImpl.testHostReply" />
-      <item itemvalue="JUnit.UserBasicDAOImpl.testGetUseBasicList" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.90" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderController.test" />
+        <item itemvalue="JUnit.OrderController.testTime" />
         <item itemvalue="JUnit.BookDAOImpl.testGetBookList" />
         <item itemvalue="JUnit.ConnUtil.testConn" />
         <item itemvalue="JUnit.HostReplyDAOImpl.testHostReply" />
-        <item itemvalue="JUnit.HostReplyDAOImpl" />
-        <item itemvalue="JUnit.UserBasicDAOImpl.testGetUseBasicList" />
       </list>
     </recent_temporary>
   </component>
@@ -554,28 +554,12 @@
       <workItem from="1689920476330" duration="13183000" />
       <workItem from="1689944450591" duration="1241000" />
       <workItem from="1689948582444" duration="1465000" />
-      <workItem from="1689986308636" duration="4248000" />
+      <workItem from="1689986308636" duration="17825000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chapter09-qqzone/pro21-qqzone 1.0/src/com/javaweb/qqzone/dao/base/BaseDAO.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chapter09-qqzone/pro21-qqzone 1.0/src/com/javaweb/qqzone/dao/base/BaseDAO.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
