@@ -14,4 +14,6 @@ public interface UserService {
 
     User login(String uname, String pwd);
 
+    boolean checkCookie(String uname, String pwd);
+
 }

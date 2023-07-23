@@ -20,6 +20,25 @@ public class User {
     private Cart cart;
     private List<OrderBean> orderBeanList;
 
+    public User() {
+    }
+    public User(Integer id) {
+        this.id = id;
+    }
+
+    public User(String uname, String pwd) {
+        this.uname = uname;
+        this.pwd = pwd;
+    }
+
+    public User(Integer id, String uname, String pwd, String email, Integer role) {
+        this.id = id;
+        this.uname = uname;
+        this.pwd = pwd;
+        this.email = email;
+        this.role = role;
+    }
+
 
     public List<OrderBean> getOrderBeanList() {
         return orderBeanList;
@@ -35,20 +54,6 @@ public class User {
 
     public void setCart(Cart cart) {
         this.cart = cart;
-    }
-
-    public User() {
-    }
-    public User(Integer id) {
-        this.id = id;
-    }
-
-    public User(Integer id, String uname, String pwd, String email, Integer role) {
-        this.id = id;
-        this.uname = uname;
-        this.pwd = pwd;
-        this.email = email;
-        this.role = role;
     }
 
     public Integer getId() {

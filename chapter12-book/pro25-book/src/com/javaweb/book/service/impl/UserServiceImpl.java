@@ -22,4 +22,10 @@ public class UserServiceImpl implements UserService {
 
         return userDAO.getUser(uname, pwd);
     }
+
+    @Override
+    public boolean checkCookie(String uname, String pwd) {
+        return userDAO.checkCookie(uname, pwd);
+    }
+
 }

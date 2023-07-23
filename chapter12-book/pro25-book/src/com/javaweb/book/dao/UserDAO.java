@@ -13,4 +13,6 @@ import com.javaweb.book.bean.User;
 public interface UserDAO {
 
     User getUser(String uname, String pwd);
+
+    boolean checkCookie(String uname, String pwd);
 }

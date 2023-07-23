@@ -21,4 +21,14 @@ public class UserDAOImpl extends BaseDAO<User> implements UserDAO {
         String sql = "select * from t_user where uname like ? and pwd like ?";
         return load(sql, uname, pwd);
     }
+
+    @Override
+    public boolean checkCookie(String uname, String pwd) {
+        String sql = "select * from t_user where uname like ? and pwd like ?";
+        User user = load(sql, uname, pwd);
+        if (user == null){
+            return false;
+        }
+        return true;
+    }
 }

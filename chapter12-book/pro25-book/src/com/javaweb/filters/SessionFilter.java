@@ -5,6 +5,7 @@ import com.javaweb.book.bean.User;
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.annotation.WebInitParam;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -56,14 +57,17 @@ public class SessionFilter implements Filter {
         String pathStr = requestURI + "?" + queryString;
 
         if (whiteList.contains(pathStr)){
+
             filterChain.doFilter(request, response);
 
         }else {
             HttpSession session = request.getSession();
             User currentUser = (User) session.getAttribute("currentUser");
 
+
+
             if (currentUser == null){
-                response.sendRedirect("page.do?operate=page&page=user/login");
+                response.sendRedirect("page.do?operate=page&page=user/index");
             }else {
                 filterChain.doFilter(request, response);
             }

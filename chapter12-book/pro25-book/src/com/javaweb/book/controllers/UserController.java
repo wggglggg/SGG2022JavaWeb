@@ -5,7 +5,12 @@ import com.javaweb.book.bean.User;
 import com.javaweb.book.service.CartItemService;
 import com.javaweb.book.service.UserService;
 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * ClassName: UserController
@@ -20,8 +25,12 @@ public class UserController {
     private UserService userService;
     private CartItemService cartItemService;
 
-    public String login(String uname, String pwd, HttpSession session){
+    public String login(String uname, String pwd, HttpSession session, HttpServletRequest request, HttpServletResponse response){
         User user = userService.login(uname, pwd);
+
+        Cookie cookie = new Cookie(uname, pwd);
+        cookie.setMaxAge(60*60*24*10);
+        response.addCookie(cookie);
 
         if (user != null){
             Cart cart = cartItemService.getCart(user);
@@ -29,12 +38,11 @@ public class UserController {
             session.setAttribute("currentUser", user);
             return "redirect:book.do";
         }
-
         return "user/login";
-
     }
 
     public String index (HttpSession session){
+
         User user = (User) session.getAttribute("currentUser");
         if (user != null){
             Cart cart = cartItemService.getCart(user);
