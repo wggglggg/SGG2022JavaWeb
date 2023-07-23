@@ -38,7 +38,15 @@ public class CartController {
         user.setCart(cart);
         session.setAttribute("currentUser", user);
 
+
         return "cart/cart";
+    }
+
+    public String editCart(Integer cartItemId, Integer buyCount){
+        cartItemService.updateCartItem(new CartItem(cartItemId, buyCount));
+
+        return "redirect:cart.do";
+
     }
 
 }

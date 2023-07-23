@@ -1,5 +1,7 @@
 package com.javaweb.book.bean;
 
+import java.math.BigDecimal;
+
 /**
  * ClassName: CartItem
  * Description:
@@ -21,6 +23,11 @@ public class CartItem {
 
     public CartItem(Integer id) {
         this.id = id;
+    }
+
+    public CartItem(Integer id, Integer buyCount) {
+        this.id = id;
+        this.buyCount = buyCount;
     }
 
     public CartItem(Book book, Integer buyCount, User userBean) {
@@ -71,7 +78,12 @@ public class CartItem {
     }
 
     public Double getCartItemSum() {
-        cartItemSum = book.getPrice() * buyCount;
+        // BigDecimal(string),接受字符串,再通过.add sub multiply divide来加减乘除
+        BigDecimal bigDecimalPrice = new BigDecimal(book.getPrice() + "");
+        BigDecimal bigDecimalBuyCount = new BigDecimal(buyCount + "");
+        // 将每本书价格 * 多少本书 = 金额
+        BigDecimal xj = bigDecimalPrice.multiply(bigDecimalBuyCount);
+        cartItemSum = xj.doubleValue();
         return cartItemSum;
     }
 

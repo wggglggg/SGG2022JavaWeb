@@ -22,9 +22,9 @@
             <i class="iconfont icon-ai-arrow-down"></i>
           </div>
           <div class="topbar-right" th:if="${session.currentUser == null}">
-            <a href="user/login.html" class="login">登录</a>
+            <a th:href="@{user.do?operate=login}" class="login">登录</a>
             <a href="user/regist.html" class="register">注册</a>
-            <a href="cart/cart.html" class="cart iconfont icon-gouwuche">购物车
+            <a th:href="@{/user.do}" class="cart iconfont icon-gouwuche">购物车
               <div class="cart-num">3</div>
             </a>
             <a href="./pages/manager/book_manager.html" class="admin">后台管理</a>

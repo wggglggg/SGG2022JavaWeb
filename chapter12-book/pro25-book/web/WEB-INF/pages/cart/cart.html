@@ -7,6 +7,7 @@
     <link rel="stylesheet" th:href="@{/static/css/minireset.css}" />
     <link rel="stylesheet" th:href="@{/static/css/common.css}" />
     <link rel="stylesheet" th:href="@{/static/css/cart.css}" />
+    <script language="JavaScript" th:src="@{/static/script/cart.js}"></script>
   </head>
   <body>
     <div class="header">
@@ -37,7 +38,7 @@
 
               <th>数量</th>
               <th>单价</th>
-              <th>金额</th>
+              <th th:width="100px">金额</th>
               <th>操作</th>
             </tr>
           </thead>
@@ -49,9 +50,9 @@
               </td>
               <td th:text="${cartItem.book.bookName}">活着</td>
               <td>
-                <span class="count">-</span>
+                <span class="count" th:onclick="|editCart(${cartItem.id}, ${cartItem.buyCount-1})|" th:if="${cartItem.buyCount > 0 }">-</span>
                 <input class="count-num" type="text" value="1" th:value="${cartItem.buyCount}"/>
-                <span class="count">+</span>
+                <span class="count" th:onclick="|editCart(${cartItem.id}, ${cartItem.buyCount+1})|">+</span>
               </td>
               <td th:text="${cartItem.book.price}">36.8</td>
               <td th:text="${cartItem.cartItemSum}">36.8</td>

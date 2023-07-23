@@ -1,5 +1,6 @@
 package com.javaweb.book.bean;
 
+import java.math.BigDecimal;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
@@ -30,7 +31,11 @@ public class Cart {
 
             for (Map.Entry<Integer, CartItem> cartItemEntry : entries){
                 CartItem cartItem = cartItemEntry.getValue();
-                totalMoney += cartItem.getBuyCount() * cartItem.getBook().getPrice();
+                BigDecimal bigDecimalBuyCount = new BigDecimal(cartItem.getBuyCount() + "");
+                BigDecimal bigDecimalBookPrice = new BigDecimal(cartItem.getBook().getPrice() + "");
+                BigDecimal bigDecimalTotalMoney = bigDecimalBuyCount.multiply(bigDecimalBookPrice);
+                Double totalMoneyDouble = bigDecimalTotalMoney.doubleValue();
+                totalMoney += totalMoneyDouble ;
             }
         }
         return totalMoney;
