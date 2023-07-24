@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pro275-book-regist-cart:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pro275_book_regist_cart_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pro275-book-regist-cart" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib share all" />
+          <element id="library" level="project" name="lib_kaptcha" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="pro275-book-regist-cart/web/Web" />
+    </root>
+  </artifact>
+</component>

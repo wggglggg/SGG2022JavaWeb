@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter11-book/chapter11-book.iml" filepath="$PROJECT_DIR$/chapter11-book/chapter11-book.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter12-book/chapter12-book.iml" filepath="$PROJECT_DIR$/chapter12-book/chapter12-book.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter13-book-cookie-kaptch-js-exp/chapter13-book-cookie-kaptch-js-exp.iml" filepath="$PROJECT_DIR$/chapter13-book-cookie-kaptch-js-exp/chapter13-book-cookie-kaptch-js-exp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter14-js-json-ajax/chapter14-js-json-ajax.iml" filepath="$PROJECT_DIR$/chapter14-js-json-ajax/chapter14-js-json-ajax.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3-tomcat-servlet/chapter3-tomcat-servlet.iml" filepath="$PROJECT_DIR$/chapter3-tomcat-servlet/chapter3-tomcat-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04-servlet-http-session/pro07-javaweb-begin/pro07-javaweb-begin.iml" filepath="$PROJECT_DIR$/chapter04-servlet-http-session/pro07-javaweb-begin/pro07-javaweb-begin.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter04-servlet-http-session/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" filepath="$PROJECT_DIR$/chapter04-servlet-http-session/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" />
@@ -34,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter11-book/pro24-book/pro24-book.iml" filepath="$PROJECT_DIR$/chapter11-book/pro24-book/pro24-book.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter12-book/pro25-book/pro25-book.iml" filepath="$PROJECT_DIR$/chapter12-book/pro25-book/pro25-book.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter13-book-cookie-kaptch-js-exp/pro27-book-regist-cart/pro27-book-regist-cart.iml" filepath="$PROJECT_DIR$/chapter13-book-cookie-kaptch-js-exp/pro27-book-regist-cart/pro27-book-regist-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter14-js-json-ajax/pro275-book-regist-cart/pro275-book-regist-cart.iml" filepath="$PROJECT_DIR$/chapter14-js-json-ajax/pro275-book-regist-cart/pro275-book-regist-cart.iml" />
     </modules>
   </component>
 </project>

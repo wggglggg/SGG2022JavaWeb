@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="pro27-book-regist-cart:war exploded" />
+      <artifact name="pro275-book-regist-cart:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -20,8 +20,8 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,25 +57,25 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/lib_kaptcha",
+    "last_opened_file_path": "C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chapter14-js-json-ajax/pro275-book-regist-cart/pro275-book-regist-cart.iml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2768473",
-    "settings.editor.selected.configurable": "editor.preferences.import",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter14-js-json-ajax" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\lib_kaptcha" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter13-book-cookie-kaptch-js-exp" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter11-book\pro23-qqzone 1.1\src\com\javaweb" />
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter12-book" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter11-book\pro24-book\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\lib_myssm" />
@@ -91,81 +91,81 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.90">
-    <configuration name="BookDAOImpl.testGetBookList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro24-book" />
+    <configuration name="UserController.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro275-book-regist-cart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaweb.book.dao.*" />
+          <option name="PATTERN" value="com.javaweb.book.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaweb.book.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.controllers.UserController" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDAOImpl.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro275-book-regist-cart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaweb.book.dao.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.javaweb.book.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.dao.impl.BookDAOImpl" />
-      <option name="METHOD_NAME" value="testGetBookList" />
+      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.dao.impl.UserDAOImpl" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnUtil.testConn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro22-qqzone 1.0" />
+    <configuration name="UserDAOImpl.testw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro275-book-regist-cart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaweb.util.*" />
+          <option name="PATTERN" value="com.javaweb.book.dao.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javaweb.util" />
-      <option name="MAIN_CLASS_NAME" value="com.javaweb.util.ConnUtil" />
-      <option name="METHOD_NAME" value="testConn" />
+      <option name="PACKAGE_NAME" value="com.javaweb.book.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.dao.impl.UserDAOImpl" />
+      <option name="METHOD_NAME" value="testw" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HostReplyDAOImpl.testHostReply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro22-qqzone 1.0" />
+    <configuration name="UserServiceImpl.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro275-book-regist-cart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaweb.qqzone.dao.impl.*" />
+          <option name="PATTERN" value="com.javaweb.book.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javaweb.qqzone.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.javaweb.qqzone.dao.impl.HostReplyDAOImpl" />
-      <option name="METHOD_NAME" value="testHostReply" />
+      <option name="PACKAGE_NAME" value="com.javaweb.book.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.service.impl.UserServiceImpl" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderController.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro25-book" />
+    <configuration name="UserServiceImpl.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro275-book-regist-cart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaweb.book.controllers.*" />
+          <option name="PATTERN" value="com.javaweb.book.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javaweb.book.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.controllers.OrderController" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderController.testTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro25-book" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaweb.book.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javaweb.book.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.controllers.OrderController" />
-      <option name="METHOD_NAME" value="testTime" />
+      <option name="PACKAGE_NAME" value="com.javaweb.book.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.service.impl.UserServiceImpl" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -288,9 +288,11 @@
     <configuration name="Tomcat 8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro27/page.do?operate=page&amp;page=user/login" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="pro27-book-regist-cart:war exploded">
+        <artifact name="pro275-book-regist-cart:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/pro27" />
           </settings>
@@ -370,7 +372,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="pro27-book-regist-cart:war exploded" />
+          <artifact name="pro275-book-regist-cart:war exploded" />
         </option>
       </method>
     </configuration>
@@ -453,20 +455,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.OrderController.test" />
-      <item itemvalue="JUnit.OrderController.testTime" />
-      <item itemvalue="JUnit.BookDAOImpl.testGetBookList" />
-      <item itemvalue="JUnit.ConnUtil.testConn" />
-      <item itemvalue="JUnit.HostReplyDAOImpl.testHostReply" />
+      <item itemvalue="JUnit.UserController.test2" />
+      <item itemvalue="JUnit.UserDAOImpl.test4" />
+      <item itemvalue="JUnit.UserDAOImpl.testw" />
+      <item itemvalue="JUnit.UserServiceImpl.test2" />
+      <item itemvalue="JUnit.UserServiceImpl.test4" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.90" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderController.test" />
-        <item itemvalue="JUnit.OrderController.testTime" />
-        <item itemvalue="JUnit.BookDAOImpl.testGetBookList" />
-        <item itemvalue="JUnit.ConnUtil.testConn" />
-        <item itemvalue="JUnit.HostReplyDAOImpl.testHostReply" />
+        <item itemvalue="JUnit.UserController.test2" />
+        <item itemvalue="JUnit.UserServiceImpl.test4" />
+        <item itemvalue="JUnit.UserDAOImpl.test4" />
+        <item itemvalue="JUnit.UserServiceImpl.test2" />
+        <item itemvalue="JUnit.UserDAOImpl.testw" />
       </list>
     </recent_temporary>
   </component>
@@ -556,7 +558,9 @@
       <workItem from="1689948582444" duration="1465000" />
       <workItem from="1689986308636" duration="17825000" />
       <workItem from="1690076294756" duration="13536000" />
-      <workItem from="1690101482618" duration="4289000" />
+      <workItem from="1690101482618" duration="4711000" />
+      <workItem from="1690159752772" duration="10699000" />
+      <workItem from="1690185698743" duration="5822000" />
     </task>
     <servers />
   </component>
