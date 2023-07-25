@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script/vue.global.js"></script>
+    <script !src="">
+      window.onload = function (){
+        let app = Vue.createApp({
+          data(){
+            return{
+              fruitList:[
+                {fname:"苹果", price:8, fcount:100, remark:"山东红富士赞"},
+                {fname:"香蕉", price:6, fcount:100, remark:"海南香蕉赞"},
+                {fname:"梨子", price:9, fcount:100, remark:"阳山梨子赞"},
+                {fname:"葡萄", price:12, fcount:100, remark:"新疆葡萄赞"}
+              ]
+            }
+          }
+        })
+        app.mount("#div0");
+      }
+
+    </script>
+  </head>
+  <body>
+    <div id="div0">
+      <table border="1" width="400" cellpadding="4" cellspacing="0">
+        <tr>
+          <th>名称</th>
+          <th>单价</th>
+          <th>库存</th>
+          <th>评价</th>
+        </tr>
+        <tr align="center" v-for="fruit in fruitList">
+          <td>{{fruit.fname}}</td>
+          <td>{{fruit.price}}</td>
+          <td>{{fruit.fcount}}</td>
+          <td>{{fruit.remark}}</td>
+        </tr>
+      </table>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/demo.css">
+    <script src="script/vue.global.js"></script>
+    <script !src="">
+      window.onload = function (){
+        let app = Vue.createApp({
+          data(){
+            return{
+              msg:"hello world."
+            }
+          },
+          methods:{
+            myReverse:function () {
+              this.msg = this.msg.split("").reverse().join("");
+            }
+          }
+        })
+        app.mount("#div0");
+      }
+
+    </script>
+  </head>
+  <body>
+    <div id="div0">
+      <span>{{msg}}</span><br>
+      <input type="button" value="点击反转" v-on:click="myReverse">
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/demo.css">
+    <script src="script/vue.global.js"></script>
+    <script !src="">
+      window.onload = function (){
+        let app = Vue.createApp({
+          data(){
+            return{
+              num1:1,
+              num2:2,
+              num3:3
+            }
+          },
+          watch:{
+            //侦听属性num1和num2
+            //当num1的值有改动时，那么需要调用后面定义的方法 , newValue指的是num1的新值
+            num1:function (newValue) {
+              this.num3 = parseInt(newValue) + parseInt(this.num2);
+            },
+            num2:function (newValue) {
+              this.num3 = parseInt(newValue) + parseInt(this.num1);
+            }
+          }
+        })
+        app.mount("#div0");
+      }
+
+    </script>
+  </head>
+  <body>
+    <div id="div0">
+      <input type="text" size="2" v-model="num1">+
+      <input type="text" size="2" v-model="num2">=
+      <span>{{num3}}</span>
+    </div>
+
+  </body>
+</html>

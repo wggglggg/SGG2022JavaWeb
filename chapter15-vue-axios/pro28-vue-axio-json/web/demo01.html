@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <script !src="">
+            function hello() {
+                person.sayHello();
+            }
+            //定义js对象方式一：
+            // let person = new Object();
+            // person.pid = "p001";
+            // person.pname = "caicande";
+            // person.sayHello = function () {
+            //     alert("Hello World , I`m in the log")
+            // }
+
+            //定义js对象方式二：
+            let person = {
+                pid:"p001",
+                pname:"caicande",
+                sayHello:function () {
+                    alert("Hello World method2 , I`m in the log")
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="div0">
+            <span>{{msg}}</span>
+            <input type="button" value="点击我打招呼" onclick="hello()">
+        </div>
+
+    </body>
+</html>

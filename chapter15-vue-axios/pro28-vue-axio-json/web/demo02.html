@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <script src="script/vue.global.js"></script>
+        <script !src="">
+
+            window.onload = function () {
+                let app = Vue.createApp({
+                    data(){
+                        return{
+                            msg:"Hello World,我是:",
+                            uname:"张老师",
+                        }
+                    }
+                });
+                app.mount("#div0");
+            }
+
+        </script>
+    </head>
+    <body>
+        <div id="div0">
+            <span>{{msg}}</span>
+            <!-- v-bind:value表示绑定value属性 , v-bind可以省略，也就是 :value -->
+            <!--<input type="text" v-bind:value="uname"/>-->
+            <input type="text" v-bind:value="uname">
+        </div>
+
+    </body>
+</html>

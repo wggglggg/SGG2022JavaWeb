@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script/vue.global.js"></script>
+    <script>
+      window.onload = function () {
+        let vue = Vue.createApp({
+          data(){
+            return{
+              msg : "hello",
+            }
+          }
+        })
+        vue.mount("#div0");
+      }
+
+    </script>
+  </head>
+  <body>
+    <div id="div0">
+      <span>{{msg}}</span><br>
+      <!-- trim可以去除首尾空格 -->
+<!--      <input type="text" style="font-size: 24px" v-model.trim="msg" >-->
+      <!--
+            v-model指的是双向绑定，
+            也就是说之前的v-bind是通过msg这个变量的值来控制input输入框
+            现在 v-model 不仅msg来控制input输入框，反过来，input输入框的内容也会改变msg的值
+         -->
+      <input type="text" style="font-size: 24px" v-model="msg" >
+    </div>
+  </body>
+</html>
