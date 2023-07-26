@@ -37,7 +37,7 @@ public class OrderController {
         String dateStr = sdf.format(now);
 
         order.setOrderNo(UUID.randomUUID().toString() + "_" + dateStr);
-        order.setOrderDate(now);
+        order.setOrderDate(LocalDateTime.now());
 
 
         User currentUser = (User) session.getAttribute("currentUser");

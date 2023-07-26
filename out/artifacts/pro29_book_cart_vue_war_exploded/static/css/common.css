@@ -1,6 +1,7 @@
 .w {
   width: 1226px;
   margin: 0 auto;
+  background-color: #323232;
 }
 
 .clearfix::after {
@@ -9,4 +10,7 @@
   height: 0;
   clear: both;
   visibility: hidden;
+}
+body{
+  background-color: #323232;
 }

@@ -1,6 +1,7 @@
 .w {
   width: 1226px;
   margin: 0 auto;
+  background-color: #323232;
 }
 
 .clearfix::after {

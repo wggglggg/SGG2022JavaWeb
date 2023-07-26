@@ -210,7 +210,7 @@
     <configuration name="Tomcat 8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro29/page.do?operate=page&amp;page=user/login" />
       <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
-      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 --add-opens java.base/java.time=ALL-UNNAMED" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="pro29-book-cart-vue:war exploded">
@@ -479,6 +479,8 @@
       <workItem from="1690372238299" duration="1833000" />
       <workItem from="1690374099577" duration="315000" />
       <workItem from="1690374629526" duration="1202000" />
+      <workItem from="1690378182431" duration="501000" />
+      <workItem from="1690378694669" duration="654000" />
     </task>
     <servers />
   </component>

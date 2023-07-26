@@ -15,7 +15,9 @@ import java.util.List;
 public class OrderBean {
     private Integer id;
     private String orderNo;
-    private Date orderDate;
+    private LocalDateTime orderDate; //第88节视频使用gson.fromJson(strjson, xxx.class)
+                                    // 会提示无法转换LocalDateTime, 在IDEA- Edit Configurations- VM Options 中
+                                    // 添加 --add-opens java.base/java.time=ALL-UNNAMED
     private User orderUser;
     private Double orderMoney;
     private Integer orderStatus;
@@ -30,7 +32,7 @@ public class OrderBean {
         this.id = id;
     }
 
-    public OrderBean(Integer id, String orderNo, Date orderDate, User orderUser, Double orderMoney, Integer orderStatus, Integer totalBookCount, List<OrderItem> orderItemList) {
+    public OrderBean(Integer id, String orderNo, LocalDateTime orderDate, User orderUser, Double orderMoney, Integer orderStatus, Integer totalBookCount, List<OrderItem> orderItemList) {
         this.id = id;
         this.orderNo = orderNo;
         this.orderDate = orderDate;
@@ -59,11 +61,11 @@ public class OrderBean {
         this.orderNo = orderNo;
     }
 
-    public Date getOrderDate() {
+    public LocalDateTime getOrderDate() {
         return orderDate;
     }
 
-    public void setOrderDate(Date orderDate) {
+    public void setOrderDate(LocalDateTime orderDate) {
         this.orderDate = orderDate;
     }
 
