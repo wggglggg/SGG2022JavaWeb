@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>01.演示Axios发送普通的参数值给服务器端</title>
+<!--  <script language="JavaScript" src="script/vue.js"></script>-->
+<!--    <script src="script/vue.global.js"></script>-->
+<!--    <script language="JavaScript" src="script/axios.min.js"></script>-->
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/3.2.47/vue.global.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.3.6/axios.js"></script>
+      <script !src="">
+
+        window.onload = function () {
+            let app = Vue.createApp({
+                data:function (){
+                    return  {
+                        uname : "liangge",
+                        pwd : "ok"
+                    }
+                },
+                methods : {
+                    axios03:function () {
+                        axios({
+                            method:"POST",
+                            url:"axios03.do",
+                            data: {
+                                // data对应的数据：
+                                // {uname:"caixingjuan",pwd:"ok"}
+                                uname: this.uname,
+                                pwd: this.pwd
+                                //此处value中的data返回的是 js object，因此可以直接点出属性
+                                //如果我们获取的是一个字符串：  "{uname:\"caixingjuan\",pwd:\"ok\"}"
+
+                                //js语言中 也有字符串和js对象之间互转的API
+                                //string JSON.stringify(object)     object->string
+                                //object JSON.parse(string)         string->object
+                            }
+                        })
+                            //vue3一定要使用=>箭头,不然无法使用this共享变量
+                            .then((response) => {
+                                console.log("response:"+response);
+                                var result = response.data;
+                                this.uname = result.uname;
+                                this.pwd = result.pwd;
+                                console.log("uname:"+result.uname);
+                                console.log("pwd"+result.pwd)
+
+                            })
+                            .catch(function (reason) {
+                                console.log(reason);
+                            })
+
+                    }
+                }
+            });
+            app.mount("#div0");
+        }
+      </script>
+
+</head>
+<body>
+<div id="div0">
+  uname:<input type="text" v-model="uname"/><br/>
+  pwd:<input type="text" v-model="pwd"/><br/>
+  <input type="button" @click="axios03" value="发送一个带普通请求参数值的异步请求"/>
+</div>
+</body>
+</html>

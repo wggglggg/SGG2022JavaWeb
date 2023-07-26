@@ -1,3 +1,8 @@
 body{
-    font-size:calc(100vw * 16 / 1920);
+    font-size:calc(200vw * 16 / 1920);
+    font-family: "Microsoft YaHei UI";
+}
+input{
+    font-size:calc(200vw * 16 / 1920);
+    font-family: "Microsoft YaHei UI";
 }

@@ -5,8 +5,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib share all" level="project" />
     <orderEntry type="library" name="lib_myssm" level="project" />
     <orderEntry type="library" name="lib_kaptcha" level="project" />
+    <orderEntry type="library" name="share for all" level="project" />
   </component>
 </module>

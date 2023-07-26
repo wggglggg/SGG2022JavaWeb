@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="pro275-book-regist-cart:war exploded" />
+      <artifact name="pro29-book-cart-vue:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -19,10 +19,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,37 +47,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chapter15-vue-axios/pro28-vue-axio-json/web",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2768473",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chapter16-vue-axios-book/pro29-book-cart-vue/web/WEB-INF/pages/cart&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2768473&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter15-vue-axios\pro28-vue-axio-json\web" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter14-js-json-ajax" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\lib_kaptcha" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter13-book-cookie-kaptch-js-exp" />
-      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter11-book\pro23-qqzone 1.1\src\com\javaweb" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter16-vue-axios-book\pro29-book-cart-vue\web\WEB-INF\pages\cart" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter16-vue-axios-book\pro29-book-cart-vue\web\static\script" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter17test\pro29-book-cart-vue-axios\web\static\script" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter17test" />
+      <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter16-vue-axios-book" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wggglggg\OneDrive\venvs\JavaProjects\JavaWeb\SGG2022JavaWeb\chapter15-vue-axios\pro28-vue-axio-json\web\script" />
@@ -92,87 +92,7 @@
       <recent name="com.thymeleaf.fruit.bean" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.90">
-    <configuration name="UserController.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro275-book-regist-cart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaweb.book.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javaweb.book.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.controllers.UserController" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDAOImpl.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro275-book-regist-cart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaweb.book.dao.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javaweb.book.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.dao.impl.UserDAOImpl" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDAOImpl.testw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro275-book-regist-cart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaweb.book.dao.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javaweb.book.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.dao.impl.UserDAOImpl" />
-      <option name="METHOD_NAME" value="testw" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceImpl.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro275-book-regist-cart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaweb.book.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javaweb.book.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.service.impl.UserServiceImpl" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceImpl.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro275-book-regist-cart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaweb.book.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javaweb.book.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.javaweb.book.service.impl.UserServiceImpl" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
@@ -288,15 +208,14 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro27/page.do?operate=page&amp;page=user/login" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pro29/page.do?operate=page&amp;page=user/login" />
+      <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="pro275-book-regist-cart:war exploded">
+        <artifact name="pro29-book-cart-vue:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/pro27" />
+            <option name="CONTEXT_PATH" value="/pro29" />
           </settings>
         </artifact>
       </deployment>
@@ -374,7 +293,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="pro275-book-regist-cart:war exploded" />
+          <artifact name="pro29-book-cart-vue:war exploded" />
         </option>
       </method>
     </configuration>
@@ -456,23 +375,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.UserController.test2" />
-      <item itemvalue="JUnit.UserDAOImpl.test4" />
-      <item itemvalue="JUnit.UserDAOImpl.testw" />
-      <item itemvalue="JUnit.UserServiceImpl.test2" />
-      <item itemvalue="JUnit.UserServiceImpl.test4" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.90" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.UserController.test2" />
-        <item itemvalue="JUnit.UserServiceImpl.test4" />
-        <item itemvalue="JUnit.UserDAOImpl.test4" />
-        <item itemvalue="JUnit.UserServiceImpl.test2" />
-        <item itemvalue="JUnit.UserDAOImpl.testw" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -563,7 +465,20 @@
       <workItem from="1690101482618" duration="4711000" />
       <workItem from="1690159752772" duration="10699000" />
       <workItem from="1690185698743" duration="5822000" />
-      <workItem from="1690245269056" duration="8858000" />
+      <workItem from="1690245269056" duration="9490000" />
+      <workItem from="1690271825183" duration="23571000" />
+      <workItem from="1690299786236" duration="385000" />
+      <workItem from="1690336111838" duration="7487000" />
+      <workItem from="1690349522106" duration="2139000" />
+      <workItem from="1690351687748" duration="7472000" />
+      <workItem from="1690359241387" duration="1603000" />
+      <workItem from="1690361092833" duration="2426000" />
+      <workItem from="1690363552118" duration="188000" />
+      <workItem from="1690363752522" duration="850000" />
+      <workItem from="1690370944110" duration="1235000" />
+      <workItem from="1690372238299" duration="1833000" />
+      <workItem from="1690374099577" duration="315000" />
+      <workItem from="1690374629526" duration="1202000" />
     </task>
     <servers />
   </component>
@@ -571,6 +486,15 @@
     <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter16-vue-axios-book/pro29-book-cart-vue/src/com/javaweb/myspringmvc/DispatcherServlet.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
         <watch expression="cookies[2]" />
