@@ -58,7 +58,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/wggglggg/OneDrive/venvs/JavaProjects/JavaWeb/SGG2022JavaWeb/chapter16-vue-axios-book/pro29-book-cart-vue/web/WEB-INF/pages/cart&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wggglggg/OneDrive/venvs/JavaProjects/Spring/SGGSpring5/spring5-boot/webfluxdemo01&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -481,6 +481,9 @@
       <workItem from="1690374629526" duration="1202000" />
       <workItem from="1690378182431" duration="501000" />
       <workItem from="1690378694669" duration="654000" />
+      <workItem from="1690637279353" duration="469000" />
+      <workItem from="1690641248722" duration="24000" />
+      <workItem from="1690713484064" duration="4000" />
     </task>
     <servers />
   </component>
@@ -488,15 +491,6 @@
     <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chapter16-vue-axios-book/pro29-book-cart-vue/src/com/javaweb/myspringmvc/DispatcherServlet.java</url>
-          <line>136</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
         <watch expression="cookies[2]" />
